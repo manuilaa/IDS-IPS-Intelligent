@@ -78,6 +78,35 @@ sudo python3 ips_blocker.py
 ```bash
 python3 model.py
 ```
+## 📋 Rapport de tests
+
+### Environnement de test
+| Machine | OS | Rôle |
+|---|---|---|
+| VM 1 | Kali Linux | Attaquant |
+| VM 2 | Ubuntu 22.04 | IDS/IPS + Victime |
+
+### Attaques testées et résultats
+
+| Attaque | Outil | Détectée | Bloquée |
+|---|---|---|---|
+| Scan de ports | Nmap -sS | ✅ Oui | ✅ Oui |
+| SSH Brute Force | Hydra | ✅ Oui | ✅ Oui |
+| Ping Flood | ping -f | ✅ Oui | ✅ Oui |
+| Scan UDP | Nmap -sU | ✅ Oui | ✅ Oui |
+
+### Résultats du modèle IA
+
+| Métrique | Valeur |
+|---|---|
+| Accuracy globale | 77.27% |
+| Précision attaques | 97% |
+| Précision normal | 66% |
+| Dataset utilisé | NSL-KDD |
+| Algorithme | Random Forest (100 arbres) |
+
+### Conclusion
+Le système IDS/IPS hybride a démontré une capacité efficace à détecter et bloquer automatiquement les attaques réseau en temps réel. La combinaison de Suricata pour la détection par signatures et du modèle Random Forest pour la détection comportementale offre une couverture complète contre les menaces connues et inconnues.
 
 ## 👩‍💻 Auteur
 
