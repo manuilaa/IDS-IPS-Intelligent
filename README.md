@@ -60,6 +60,12 @@ Logstash → Elasticsearch → Grafana Dashboard
 ### Alerte Email Automatique
 ![Email Alerte](screenshots/email_alerte6.png)
 
+### SQL Injection & XSS Détectés
+![SQLi XSS](screenshots/SQLi_XSS_detecte7.png)
+
+### FTP Brute Force Détecté
+![FTP](screenshots/FTP_detecte8.png)
+
 ## 🚀 Lancement du projet
 
 ### 1. Démarrer les services
