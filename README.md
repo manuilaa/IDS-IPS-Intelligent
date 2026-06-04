@@ -57,6 +57,9 @@ Logstash → Elasticsearch → Grafana Dashboard
 ### Modèle IA - Random Forest
 ![IA](screenshots/Modele_IA5.png)
 
+### Alerte Email Automatique
+![Email Alerte](screenshots/email_alerte6.png)
+
 ## 🚀 Lancement du projet
 
 ### 1. Démarrer les services
