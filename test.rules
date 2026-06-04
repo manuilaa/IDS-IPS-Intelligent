@@ -7,3 +7,8 @@ alert tcp any any -> 192.168.10.2 22 (msg:"SSH Brute Force detecte !"; threshold
 
 # Détection ping flood
 alert icmp any any -> 192.168.10.2 any (msg:"Ping Flood detecte !"; threshold:type threshold, track by_src, count 50, seconds 1; sid:1000004; rev:1;)
+| SQL Injection | Nmap/curl | ✅ Oui | ✅ Oui |
+| XSS Attack | curl | ✅ Oui | ✅ Oui |
+| SYN Flood DDoS | hping3 | ✅ Oui | ✅ Oui |
+| FTP Brute Force | Hydra | ✅ Oui | ✅ Oui |
+| Nikto Scanner | Nikto | ✅ Oui | ✅ Oui |
