@@ -94,6 +94,11 @@ python3 model.py
 | SSH Brute Force | Hydra | ✅ Oui | ✅ Oui |
 | Ping Flood | ping -f | ✅ Oui | ✅ Oui |
 | Scan UDP | Nmap -sU | ✅ Oui | ✅ Oui |
+| SQL Injection | curl | ✅ Oui | ✅ Oui |
+| XSS Attack | curl | ✅ Oui | ✅ Oui |
+| SYN Flood DDoS | hping3 | ✅ Oui | ✅ Oui |
+| FTP Brute Force | Hydra | ✅ Oui | ✅ Oui |
+| Nikto Scanner | Nikto | ✅ Oui | ✅ Oui |
 
 ### Résultats du modèle IA
 
