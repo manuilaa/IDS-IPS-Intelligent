@@ -24,6 +24,7 @@ Logstash → Elasticsearch → Grafana Dashboard
 | **Logstash** | Transport des logs |
 | **Grafana** | Dashboard SOC temps réel |
 | **Kali Linux** | Simulation d'attaques |
+| **SMTP Gmail** | Alertes email automatiques |
 
 ## 📊 Résultats
 
